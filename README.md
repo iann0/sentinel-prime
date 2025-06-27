@@ -14,7 +14,6 @@
 -  UDP port scanning
 -  Banner grabbing (service fingerprinting)
 -  HTML report generation
--  Fast and minimal — no GUI, just raw power
 -  Designed for Linux (Termux on Android)
 
 ---
@@ -46,7 +45,7 @@ Banner grabbing (detect services):
 
 sentinel-prime 192.168.1.1 -p 21-80 --banner
 
-Save as HTML report:
+Save as HTML report: sentinel-prime [host] [port] --banner --report
 
 sentinel-prime scanme.nmap.org -p 80,443 --banner --html 
 ---
