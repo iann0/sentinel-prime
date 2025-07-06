@@ -8,8 +8,6 @@
 
 ---
 ---
-https://github.com/iann0/sentinel-prime/blob/main/Screenshot_20250706-180427.jpg
----
 # Features
 
 -  TCP port scanning
